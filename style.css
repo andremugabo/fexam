@@ -1,0 +1,197 @@
+@import url('bootstrap.css');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: none;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  body{
+    position: relative;
+    }
+  .header {
+    background-color: rgb(255, 255, 16);
+    width: 100%;
+    height: 80px;
+    display: block;
+  }
+  .inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+  }
+  .logo_container h1 {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: solid;
+    color: black;
+  }
+  .navigation {
+    height: 100%;
+    float: right;
+  }
+  .navigation a {
+    height: 70%;
+    display: table;
+    float: left;
+    padding: 10px;
+  }
+  .navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+  }
+
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 100px;
+    margin-left: 700px;
+  }
+  .content-table thead tr {
+    background-color: #101010;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #101010;
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 30px;
+  }
+/* contact css */
+main{
+  width: 100%;
+  min-height: 100vh;
+}
+.contact{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* margin-bottom: 70px; */
+}
+.contact form{
+  margin-bottom: 30px;
+  width: 50%;
+}
+.gallery{
+  
+}
+.product{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 19% 19% 19% 19% 19%;
+  grid-gap: 13px;
+  padding:0px 0px 5px 0px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.p_card {
+    width: 100%;
+    height: 330px;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+    background-color: white;
+    transition: 1s;
+}
+.p_card:hover{
+  box-shadow: 3px 4px 5px  #041e42;
+}
+.p_card a{
+  width: 100%;
+  height: 100%;
+}
+.p_card_pic{
+  width: 100%;
+  height: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.p_card_body{
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  width: calc(100% - 10px);
+  height: 40%;
+  padding: 10px;
+}
+.card_description,.card_info{
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.price_card{
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+}
+.p_card_body a{
+  color: black;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer p{
+    font-weight: bold;
+    font-size: 20px;
+  }
